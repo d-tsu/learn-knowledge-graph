@@ -1,0 +1,38 @@
+[
+  {
+    "file": "00-introduction-mobile.pdf",
+    "pages": 12,
+    "outlines": 2,
+    "links": 2,
+    "characters": 3998,
+    "source_chunks_checked": 74,
+    "issues": []
+  },
+  {
+    "file": "01-knowledge-representation-mobile.pdf",
+    "pages": 14,
+    "outlines": 2,
+    "links": 0,
+    "characters": 4236,
+    "source_chunks_checked": 92,
+    "issues": []
+  },
+  {
+    "file": "02-knowledge-organization-mobile.pdf",
+    "pages": 15,
+    "outlines": 2,
+    "links": 7,
+    "characters": 4664,
+    "source_chunks_checked": 94,
+    "issues": []
+  },
+  {
+    "file": "knowledge-graph-chapters-00-02-mobile.pdf",
+    "pages": 42,
+    "outlines": 6,
+    "links": 17,
+    "characters": 13183,
+    "source_chunks_checked": 260,
+    "issues": []
+  }
+]

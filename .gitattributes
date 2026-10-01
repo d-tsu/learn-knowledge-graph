@@ -1,0 +1,6 @@
+# Keep PDF bytes intact, including compressed font and image streams.
+*.pdf binary
+*.png binary
+
+# Preserve the exact source bytes recorded in the review and PDF manifests.
+docs/chapters/*.md -text

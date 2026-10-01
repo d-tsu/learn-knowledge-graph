@@ -8,25 +8,32 @@
 
 別PC・別のタスクで再開するときは、[作業引き継ぎ](HANDOFF.md)も確認してください。
 
-以下の資料は目次合意前に作成した初期草稿です。改訂目次への再編・不足部分の執筆は未実施です。
+改訂目次に沿った本文の執筆を開始しました。全章の草稿対応・不足・執筆順は[再編・執筆計画](docs/EDITORIAL_PLAN.md)に記録しています。
 
-## 既存の初期草稿
+[文書レビュー方針](REVIEW_POLICY.md)は2026-10-01にユーザー確認済みです。[権限・条件分岐・業務エラーの題材](examples/conditional-screen-flow.md)を踏まえて既存本文を改稿しました。セルフレビューと別エージェントによる独立レビュー・指摘対応を完了し、確認範囲と限界を[レビュー記録](reviews/2026-10-01-foundations.md)に保存しています。
 
-| 順 | 資料 | 学べること |
+## 改訂構成の本文
+
+2026-10-01現在、次の3章は改稿・独立レビュー済みです。第3〜17章と付録の再編は未完了です。
+
+| 章 | 資料 | 学べること |
 |---|---|---|
-| 1 | [全体像と学習計画](docs/00-roadmap.md) | 何を解く技術か、どの順で学ぶか |
-| 2 | [基礎理論](docs/01-foundations.md) | グラフ・オントロジー・推論・検証の区別 |
-| 2a | [題材別ミニ例](examples/learning-examples.md) | 関係探索・分類・制約検証を別々に学ぶ |
-| 3 | [設計知識のモデル化](docs/02-modeling.md) | 概念、関係、条件、出典、版の設計 |
-| 4 | [文書からの構築と更新](docs/03-ingestion.md) | Markdown化、抽出、同一性、変更管理 |
-| 5 | [DBとツールの地図](docs/04-tool-landscape.md) | Neo4j、GraphDB、周辺ツール、Graphifyの役割 |
-| 6 | [AIエージェントとの連携](docs/05-agent-integration.md) | 検索、GraphRAG、問い合わせAPI、生成と検証 |
-| 7 | [権限から結合・システムテストを作る](examples/authorization-testing.md) | 複数設計を横断した具体例 |
-| 8 | [評価と段階的な実証](docs/06-evaluation.md) | 効果の測り方と比較実験 |
-| 9 | [用語集](docs/07-glossary.md) | 復習用の短い定義 |
-| 10 | [参照資料・調査台帳](docs/08-sources.md) | 一次資料、確認日、未確認事項 |
+| 序章 | [この資料の目的と読み方](docs/chapters/00-introduction.md) | 学習ルート、アクセス・経路・業務判断の依存、事実と仮説 |
+| 1 | [知識を表現するとは](docs/chapters/01-knowledge-representation.md) | 対象・名前・ID、属性・関係・規則、条件・時点・結果 |
+| 2 | [知識を整理するさまざまな方法](docs/chapters/02-knowledge-organization.md) | 語彙・分類・モデルの使い分け、関係図・条件表・手順の分担 |
 
-最短で課題との関係をつかむには「全体像 → 権限の例 → 基礎理論」の順でも読めます。
+序章から順に読み進めてください。旧草稿は執筆用の再利用元として [drafts/](drafts/README.md) にまとめています。
+
+## スマホで読むPDF
+
+大きめの文字と縦長のページで読める確認用PDFを用意しました。本文・演習・解答例を省略せず、横に広い表はカード形式にし、図を画像として収録しています。
+
+- [3章まとめ版・目次付き](output/pdf/knowledge-graph-chapters-00-02-mobile.pdf)
+- [序章](output/pdf/00-introduction-mobile.pdf)
+- [第1章](output/pdf/01-knowledge-representation-mobile.pdf)
+- [第2章](output/pdf/02-knowledge-organization-mobile.pdf)
+
+2026-10-01の本文から生成した読書版です。Markdownを正本とし、PDFの生成方法と確認範囲は[読書版の記録](output/pdf/README.md)にまとめています。
 
 ## 再利用するためのひな形
 
