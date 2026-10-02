@@ -1,31 +1,31 @@
 {
-  "generated": "2026-10-02",
+  "generated": "2026-10-03",
   "format": "108x180mm / Meiryo embedded / cards for table rows",
   "sources": {
     "docs\\chapters\\00-introduction.md": "eaa8f96689aa6b41b151c793d79f46a28400d688970c61e0b71f532864e2b1de",
-    "docs\\chapters\\01-knowledge-representation.md": "37b266117d52d14f15ad97c1cc42ff5fb2c6e4ae41c1571ca55cd4ca2797b46b",
+    "docs\\chapters\\01-knowledge-representation.md": "b40e1acae29ff8d54e7f0bff58703efaed12daba2b3b2f39fca231b5ac970ff4",
     "docs\\chapters\\02-knowledge-organization.md": "89929c8e97f2da6048ad153992ec353cac5b6f61302c9fe9df1ba1507dbc3f85"
   },
   "outputs": [
     {
       "file": "00-introduction-mobile.pdf",
       "pages": 16,
-      "bytes": 354868
+      "bytes": 354840
     },
     {
       "file": "01-knowledge-representation-mobile.pdf",
-      "pages": 18,
-      "bytes": 250545
+      "pages": 19,
+      "bytes": 252945
     },
     {
       "file": "02-knowledge-organization-mobile.pdf",
       "pages": 20,
-      "bytes": 315780
+      "bytes": 315772
     },
     {
       "file": "knowledge-graph-chapters-00-02-mobile.pdf",
-      "pages": 55,
-      "bytes": 630352
+      "pages": 56,
+      "bytes": 632959
     }
   ]
 }

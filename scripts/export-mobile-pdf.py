@@ -35,7 +35,7 @@ S['quote']=ParagraphStyle('quote',parent=S['body'],fontSize=10.4,leading=17,text
 
 FILES=list(sorted((ROOT/'docs/chapters').glob('*.md')))
 BOOKMARKS={p.name:'chapter'+p.name[:2] for p in FILES}
-EXPORT_DATE='2026-10-02'
+EXPORT_DATE='2026-10-03'
 FIGURE_LABELS={
  '00-introduction.md':['画面の遷移とAの入力値の参照','PGで所属と年齢を表す','RDFで所属と年齢を表す'],
  '01-knowledge-representation.md':['貸出の出来事、本、利用者の対応'],
