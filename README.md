@@ -10,16 +10,16 @@
 
 改訂目次に沿った本文の執筆を開始しました。全章の草稿対応・不足・執筆順は[再編・執筆計画](docs/EDITORIAL_PLAN.md)に記録しています。
 
-[文書レビュー方針](REVIEW_POLICY.md)は2026-10-01にユーザー確認済みです。[権限・条件分岐・業務エラーの題材](examples/conditional-screen-flow.md)を踏まえて既存本文を改稿しました。セルフレビューと別エージェントによる独立レビュー・指摘対応を完了し、確認範囲と限界を[レビュー記録](reviews/2026-10-01-foundations.md)に保存しています。
+[文書レビュー方針](REVIEW_POLICY.md)は2026-10-01にユーザー確認済みです。[権限・条件分岐・業務エラーの題材](examples/conditional-screen-flow.md)を扱います。2026-10-02に読者の指摘を受け、序章〜第2章の説明と日本語を全面的に見直しました。セルフレビューと別エージェントの独立レビューについて、確認範囲・指摘対応・最終状態を[今回のレビュー記録](reviews/2026-10-02-readability.md)に保存しています。[前回のレビュー](reviews/2026-10-01-foundations.md)は過去版の記録として残しています。
 
 ## 改訂構成の本文
 
-2026-10-01現在、次の3章は改稿・独立レビュー済みです。第3〜17章と付録の再編は未完了です。
+2026-10-02に次の3章を改稿しました。第3〜17章と付録の再編は未完了です。
 
 | 章 | 資料 | 学べること |
 |---|---|---|
 | 序章 | [この資料の目的と読み方](docs/chapters/00-introduction.md) | 学習ルート、アクセス・経路・業務判断の依存、事実と仮説 |
-| 1 | [知識を表現するとは](docs/chapters/01-knowledge-representation.md) | 対象・名前・ID、属性・関係・規則、条件・時点・結果 |
+| 1 | [知識を表現するとは](docs/chapters/01-knowledge-representation.md) | データ・情報・知識、対象・名前・ID、事実・規則、入力形式と業務判断 |
 | 2 | [知識を整理するさまざまな方法](docs/chapters/02-knowledge-organization.md) | 語彙・分類・モデルの使い分け、関係図・条件表・手順の分担 |
 
 序章から順に読み進めてください。旧草稿は執筆用の再利用元として [drafts/](drafts/README.md) にまとめています。
@@ -33,7 +33,7 @@
 - [第1章](output/pdf/01-knowledge-representation-mobile.pdf)
 - [第2章](output/pdf/02-knowledge-organization-mobile.pdf)
 
-2026-10-01の本文から生成した読書版です。Markdownを正本とし、PDFの生成方法と確認範囲は[読書版の記録](output/pdf/README.md)にまとめています。
+2026-10-02の本文から生成した読書版です。Markdownを正本とし、PDFの生成方法と確認範囲は[読書版の記録](output/pdf/README.md)にまとめています。
 
 ## 再利用するためのひな形
 

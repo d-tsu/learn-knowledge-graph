@@ -35,6 +35,12 @@ S['quote']=ParagraphStyle('quote',parent=S['body'],fontSize=10.4,leading=17,text
 
 FILES=list(sorted((ROOT/'docs/chapters').glob('*.md')))
 BOOKMARKS={p.name:'chapter'+p.name[:2] for p in FILES}
+EXPORT_DATE='2026-10-02'
+FIGURE_LABELS={
+ '00-introduction.md':['画面の遷移とAの入力値の参照','PGで所属と年齢を表す','RDFで所属と年齢を表す'],
+ '01-knowledge-representation.md':['貸出の出来事、本、利用者の対応'],
+ '02-knowledge-organization.md':['媒体と貸出可否による分類']
+}
 
 class Doc(BaseDocTemplate):
  def __init__(self,file,label,**kw):
@@ -46,7 +52,7 @@ class Doc(BaseDocTemplate):
   c.saveState();c.setFillColor(BLUE);c.rect(0,H-3*mm,W,3*mm,fill=1,stroke=0)
   c.setFont('Meiryo',7.1);c.setFillColor(MUTED);c.drawString(M,H-10*mm,'ナレッジグラフ・オントロジー学習ノート')
   c.setStrokeColor(colors.HexColor('#d9e2ec'));c.line(M,11*mm,W-M,11*mm)
-  c.setFont('Meiryo',7);c.drawString(M,6.7*mm,'スマホ読書版 | 2026-10-01')
+  c.setFont('Meiryo',7);c.drawString(M,6.7*mm,'スマホ読書版 | '+EXPORT_DATE)
   c.drawRightString(W-M,6.7*mm,str(doc.page));c.restoreState()
  def afterFlowable(self,f):
   if isinstance(f,Paragraph) and hasattr(f,'bookmark'):
@@ -102,7 +108,7 @@ def chapter(p,combined=False):
     with PILImage.open(img) as im:iw,ih=im.size
     scale=min(CW/iw,(H-65*mm)/ih)
     picture=Image(str(img),width=iw*scale,height=ih*scale)
-    caption=para('図 '+str(fig)+'　本文の関係を縦向きに配置','small',combined)
+    caption=para('図 '+str(fig)+'　'+FIGURE_LABELS[p.name][fig-1],'small',combined)
     flow.append(KeepTogether([Spacer(1,4),picture,Spacer(1,7),caption]))
    else:
     flow.append(para('\n'.join(code),'small',combined))
@@ -143,7 +149,7 @@ def chapter(p,combined=False):
   flow.append(para(content,style,combined))
  return flow
 
-manifest={'generated':'2026-10-01','format':'108x180mm / Meiryo embedded / cards for table rows','sources':{},'outputs':[]}
+manifest={'generated':EXPORT_DATE,'format':'108x180mm / Meiryo embedded / cards for table rows','sources':{},'outputs':[]}
 for p in FILES:
  manifest['sources'][str(p.relative_to(ROOT))]=hashlib.sha256(p.read_bytes()).hexdigest()
  label=p.read_text(encoding='utf-8-sig').splitlines()[0].lstrip('# ')
@@ -153,7 +159,7 @@ for p in FILES:
  manifest['outputs'].append({'file':target.name,'pages':len(r.pages),'bytes':target.stat().st_size})
  print(json.dumps(manifest['outputs'][-1],ensure_ascii=False))
 combined=OUT/'knowledge-graph-chapters-00-02-mobile.pdf'
-story=[Paragraph('ナレッジグラフ・<br/>オントロジー<br/>学習ノート',S['h1']),para('序章・第1章・第2章','h2'),para('スマホ読書版','body'),para('2026-10-01 改稿・独立レビュー済みの本文を収録。本文は省略せず、表を項目ごとのカード形式にして、図を縦向きに配置しました。','body'),Spacer(1,12)]
+story=[Paragraph('ナレッジグラフ・<br/>オントロジー<br/>学習ノート',S['h1']),para('序章・第1章・第2章','h2'),para('スマホ読書版','body'),para(EXPORT_DATE+'の本文を収録。本文は省略せず、表を項目ごとのカード形式にして、図を画像として収録しました。','body'),Spacer(1,12)]
 for p in FILES:
  label=p.read_text(encoding='utf-8-sig').splitlines()[0].lstrip('# ')
  story.append(Paragraph('<link href="#'+BOOKMARKS[p.name]+'" color="#1e6b82">'+html.escape(label)+'</link>',S['body']))
