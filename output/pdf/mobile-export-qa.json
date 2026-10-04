@@ -4,7 +4,7 @@
     "pages": 16,
     "outlines": 2,
     "links": 3,
-    "characters": 4923,
+    "characters": 5026,
     "source_chunks_checked": 104,
     "issues": []
   },
@@ -19,20 +19,20 @@
   },
   {
     "file": "02-knowledge-organization-mobile.pdf",
-    "pages": 20,
+    "pages": 26,
     "outlines": 2,
-    "links": 6,
-    "characters": 6078,
-    "source_chunks_checked": 140,
+    "links": 11,
+    "characters": 8357,
+    "source_chunks_checked": 164,
     "issues": []
   },
   {
     "file": "knowledge-graph-chapters-00-02-mobile.pdf",
-    "pages": 56,
+    "pages": 62,
     "outlines": 6,
-    "links": 17,
-    "characters": 17321,
-    "source_chunks_checked": 368,
+    "links": 22,
+    "characters": 19703,
+    "source_chunks_checked": 392,
     "issues": []
   }
 ]
