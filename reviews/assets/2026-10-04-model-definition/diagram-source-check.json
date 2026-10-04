@@ -1,0 +1,12 @@
+{
+  "sourceSha256": "6b1c2e6240176ce842628f3f89aaec4d18537ae8ec817d9222523107dc9cab27",
+  "previousSourceSha256": "62d9042c347900d9585ee0c70d759063bf246321929b72e3bb17a0be9e4e9eeb",
+  "unchangedDiagrams": 3,
+  "diagramHashes": [
+    "1e837a22884f716dadfdadf8b295fb6269f99b497357dfe8eddb6ca83fd0290c",
+    "bbd72777f5cc3f98c31af02c5e7bbb4fbe0342176ec645bbb533e1c39e8af945",
+    "e5a0f45d0462a3a01013ef8365135db1f80f87ea141cf1219ee4afa80394ffa1"
+  ],
+  "reusedEvidence": "reviews/assets/2026-10-04-concept-ontology/render-check.json",
+  "redrawnThisRevision": false
+}
