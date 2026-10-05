@@ -1,0 +1,26 @@
+[
+  {
+    "file": "docs/chapters/00-introduction.md",
+    "sha256": "4c342d14228dc1882607b3b8cfc7cccc1694d49a88c5f4c22d25bbd95dd7652a",
+    "localLinks": 6,
+    "emphasis": 4,
+    "diagrams": 3,
+    "issues": []
+  },
+  {
+    "file": "docs/chapters/01-knowledge-representation.md",
+    "sha256": "2ea9253c22a11050c2ed8653330be884446db5137831c4f15cd4f94c69c76a14",
+    "localLinks": 3,
+    "emphasis": 4,
+    "diagrams": 1,
+    "issues": []
+  },
+  {
+    "file": "docs/chapters/02-knowledge-organization.md",
+    "sha256": "8c5cbef5e77314d23a3b733dd5af4e7ed642772d66134d14e3b35dc7b2107238",
+    "localLinks": 3,
+    "emphasis": 21,
+    "diagrams": 4,
+    "issues": []
+  }
+]
