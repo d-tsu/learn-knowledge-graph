@@ -1,0 +1,31 @@
+{
+  "sourceSha256": "d1fe864a6afaa474e04c521553bcebada8bec4d7775eb9da8fadbcd9e96c33f8",
+  "mermaid": "11.12.0",
+  "renderer": "Edge headless",
+  "diagrams": [
+    {
+      "index": 1,
+      "codeSha256": "c01b33212389d95759a345700eb6dd4dcb359e7a7a5784cba3d2dd238836a10b",
+      "svg": "04-ontologies-1.svg",
+      "png": "04-ontologies-1.png"
+    },
+    {
+      "index": 2,
+      "codeSha256": "149aed804b9aefa742e1ec2233405495b476ce25b12259f69700290e263777fb",
+      "svg": "04-ontologies-2.svg",
+      "png": "04-ontologies-2.png"
+    },
+    {
+      "index": 3,
+      "codeSha256": "e860425299fd5a2da1d3f39576d3601091747af5f2e39eb509f89acff71493d5",
+      "svg": "04-ontologies-3.svg",
+      "png": "04-ontologies-3.png"
+    },
+    {
+      "index": 4,
+      "codeSha256": "184340061ad2e5a075ba54e897702c6d8d6c52dbcd32cd87dc0596a2a81b6225",
+      "svg": "04-ontologies-4.svg",
+      "png": "04-ontologies-4.png"
+    }
+  ]
+}
