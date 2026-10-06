@@ -1,0 +1,12 @@
+{
+  "previousSourceSha256": "fe8563e6849ecd20d9840e2cca9c3d1645b54876bd6955eb157d793fb0f0d804",
+  "sourceSha256": "836bb289f1fb351169b2b37e842716450d1851051ac8cba2c799f73825fd3fd0",
+  "diagrams": 3,
+  "allDiagramSourcesUnchanged": true,
+  "diagramHashes": [
+    "40ef6e8400b18ec100b62fbe67dda34f4544c87ee7f87fbac57ba3fd18475d11",
+    "7a86642319a6573d606e99d01bc3afad5d633fdc750d3ef4ce117248e5a17315",
+    "7fe7d5322b2ca0af6d7d3cbadeb01fddecc9a336a6a0ed4c5fa881db5299261c"
+  ],
+  "renderEvidence": "reviews/assets/2026-10-06-chapter-05/render-check.json"
+}
