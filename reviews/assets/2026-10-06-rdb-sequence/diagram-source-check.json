@@ -1,0 +1,28 @@
+[
+  {
+    "file": "docs/chapters/02-knowledge-organization.md",
+    "sourceSha256": "4644735b12b839ccdb72278b0af9ee97d5d3869aa8ccad8752cf78c78a2ae97f",
+    "comparedCommit": "8542c35872ccf688864a3bb5d5bf405eb250bfd7",
+    "diagramCount": 4,
+    "allDiagramSourcesMatchPreviousCommit": true,
+    "diagramSha256": [
+      "1e837a22884f716dadfdadf8b295fb6269f99b497357dfe8eddb6ca83fd0290c",
+      "bbd72777f5cc3f98c31af02c5e7bbb4fbe0342176ec645bbb533e1c39e8af945",
+      "54b60ca117704218291bdc297f8e527463af6c8d923897fb3f440384af8cfc48",
+      "e5a0f45d0462a3a01013ef8365135db1f80f87ea141cf1219ee4afa80394ffa1"
+    ]
+  },
+  {
+    "file": "docs/chapters/03-knowledge-graphs.md",
+    "sourceSha256": "f8e7e81a8dcd860190b857594d6f017ae45c0c260b9896b78ffde74da97175f4",
+    "comparedCommit": "8542c35872ccf688864a3bb5d5bf405eb250bfd7",
+    "diagramCount": 4,
+    "allDiagramSourcesMatchPreviousCommit": true,
+    "diagramSha256": [
+      "f11fd6410fcba81aaecb0154b53d36e5d35f253fe2198d7b1bb5851436867b34",
+      "e9342dda532ca929441e2450dfa272fe98196de103a12451cbf9ef3a7513934e",
+      "7d0228d5e5809ee9019a282809e72f0531135e51da4c02112b37243d551af024",
+      "4f125a9f6372e70d58267d473c2236e6ebf9b22fcbefedac58bd86a8d6f038ce"
+    ]
+  }
+]

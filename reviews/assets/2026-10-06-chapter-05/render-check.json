@@ -1,0 +1,25 @@
+{
+  "sourceSha256": "da404629b0dc74d68bb14617aec1fc328fbb600a3fad9c811e6369c97e71c0af",
+  "mermaid": "11.12.0",
+  "renderer": "Edge headless",
+  "diagrams": [
+    {
+      "index": 1,
+      "codeSha256": "40ef6e8400b18ec100b62fbe67dda34f4544c87ee7f87fbac57ba3fd18475d11",
+      "svg": "05-reasoning-and-constraints-1.svg",
+      "png": "05-reasoning-and-constraints-1.png"
+    },
+    {
+      "index": 2,
+      "codeSha256": "7a86642319a6573d606e99d01bc3afad5d633fdc750d3ef4ce117248e5a17315",
+      "svg": "05-reasoning-and-constraints-2.svg",
+      "png": "05-reasoning-and-constraints-2.png"
+    },
+    {
+      "index": 3,
+      "codeSha256": "7fe7d5322b2ca0af6d7d3cbadeb01fddecc9a336a6a0ed4c5fa881db5299261c",
+      "svg": "05-reasoning-and-constraints-3.svg",
+      "png": "05-reasoning-and-constraints-3.png"
+    }
+  ]
+}

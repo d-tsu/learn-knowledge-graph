@@ -1,0 +1,42 @@
+[
+  {
+    "file": "docs/chapters/00-introduction.md",
+    "sha256": "4c342d14228dc1882607b3b8cfc7cccc1694d49a88c5f4c22d25bbd95dd7652a",
+    "localLinks": 6,
+    "emphasis": 4,
+    "diagrams": 3,
+    "issues": []
+  },
+  {
+    "file": "docs/chapters/01-knowledge-representation.md",
+    "sha256": "2ea9253c22a11050c2ed8653330be884446db5137831c4f15cd4f94c69c76a14",
+    "localLinks": 3,
+    "emphasis": 4,
+    "diagrams": 1,
+    "issues": []
+  },
+  {
+    "file": "docs/chapters/02-knowledge-organization.md",
+    "sha256": "4644735b12b839ccdb72278b0af9ee97d5d3869aa8ccad8752cf78c78a2ae97f",
+    "localLinks": 4,
+    "emphasis": 22,
+    "diagrams": 4,
+    "issues": []
+  },
+  {
+    "file": "docs/chapters/03-knowledge-graphs.md",
+    "sha256": "8c8ef0441799241f2d9a3fbd777dd9ca1d9d38972a7f0241aef9765a89b2c72b",
+    "localLinks": 3,
+    "emphasis": 14,
+    "diagrams": 4,
+    "issues": []
+  },
+  {
+    "file": "docs/chapters/04-ontologies.md",
+    "sha256": "b65d0e54ea2228242d4b7d9a7c680ca5c5c46f12b063160b6d1f7e5ef9b9d633",
+    "localLinks": 3,
+    "emphasis": 9,
+    "diagrams": 4,
+    "issues": []
+  }
+]

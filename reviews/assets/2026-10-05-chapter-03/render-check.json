@@ -1,0 +1,31 @@
+{
+  "sourceSha256": "6ce9afe1598cc67879f4f9037760bed6b0ce9e80461e9b1b94dd389fedcdf0e1",
+  "mermaid": "11.12.0",
+  "renderer": "Edge headless",
+  "diagrams": [
+    {
+      "index": 1,
+      "codeSha256": "f11fd6410fcba81aaecb0154b53d36e5d35f253fe2198d7b1bb5851436867b34",
+      "svg": "03-knowledge-graphs-1.svg",
+      "png": "03-knowledge-graphs-1.png"
+    },
+    {
+      "index": 2,
+      "codeSha256": "e9342dda532ca929441e2450dfa272fe98196de103a12451cbf9ef3a7513934e",
+      "svg": "03-knowledge-graphs-2.svg",
+      "png": "03-knowledge-graphs-2.png"
+    },
+    {
+      "index": 3,
+      "codeSha256": "7d0228d5e5809ee9019a282809e72f0531135e51da4c02112b37243d551af024",
+      "svg": "03-knowledge-graphs-3.svg",
+      "png": "03-knowledge-graphs-3.png"
+    },
+    {
+      "index": 4,
+      "codeSha256": "4f125a9f6372e70d58267d473c2236e6ebf9b22fcbefedac58bd86a8d6f038ce",
+      "svg": "03-knowledge-graphs-4.svg",
+      "png": "03-knowledge-graphs-4.png"
+    }
+  ]
+}

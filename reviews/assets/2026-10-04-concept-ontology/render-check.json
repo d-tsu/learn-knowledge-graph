@@ -1,0 +1,19 @@
+{
+  "sourceSha256": "62d9042c347900d9585ee0c70d759063bf246321929b72e3bb17a0be9e4e9eeb",
+  "mermaid": "11.12.0",
+  "renderer": "Edge headless",
+  "diagrams": [
+    {
+      "index": 2,
+      "codeSha256": "bbd72777f5cc3f98c31af02c5e7bbb4fbe0342176ec645bbb533e1c39e8af945",
+      "svg": "02-knowledge-organization-2.svg",
+      "png": "02-knowledge-organization-2.png"
+    },
+    {
+      "index": 3,
+      "codeSha256": "e5a0f45d0462a3a01013ef8365135db1f80f87ea141cf1219ee4afa80394ffa1",
+      "svg": "02-knowledge-organization-3.svg",
+      "png": "02-knowledge-organization-3.png"
+    }
+  ]
+}
