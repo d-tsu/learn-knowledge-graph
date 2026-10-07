@@ -1,6 +1,8 @@
 # 再編・執筆計画
 
-更新日：2026-10-06。基準は[OUTLINE.md](../OUTLINE.md)。旧草稿は [drafts/](../drafts/README.md) に分離し、新本文は `docs/chapters/` に章番号と内容を示す名前で追加する。付録は必要になった段階で `docs/appendices/` に整理する。未執筆の章の空ファイルは作らない。
+更新日：2026-10-07。基準は[OUTLINE.md](../OUTLINE.md)。旧草稿は [drafts/](../drafts/README.md) に分離し、新本文は `docs/chapters/` に章番号と内容を示す名前で追加する。付録は必要になった段階で `docs/appendices/` に整理する。未執筆の章の空ファイルは作らない。
+
+mainを共有の基準とし、一章ごとにブランチを作って執筆・レビューを行う。指摘対応と必要な確認を終えたらmainへマージする。[執筆・合流手順](../CONTRIBUTING.md)に従う。現在の入口はREADME、詳しい改稿の履歴は[更新履歴](CHANGELOG.md)、レビューの所在は[レビュー一覧](../reviews/README.md)で確認する。
 
 ## 既存草稿との対応と不足
 

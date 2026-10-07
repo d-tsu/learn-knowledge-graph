@@ -1,0 +1,38 @@
+{
+  "markdownFiles": 70,
+  "localLinks": 255,
+  "missingLinks": [],
+  "unclosedFences": [],
+  "chapters": [
+    {
+      "file": "docs/chapters/00-introduction.md",
+      "sha256": "4c342d14228dc1882607b3b8cfc7cccc1694d49a88c5f4c22d25bbd95dd7652a",
+      "unchanged": true
+    },
+    {
+      "file": "docs/chapters/01-knowledge-representation.md",
+      "sha256": "2ea9253c22a11050c2ed8653330be884446db5137831c4f15cd4f94c69c76a14",
+      "unchanged": true
+    },
+    {
+      "file": "docs/chapters/02-knowledge-organization.md",
+      "sha256": "4644735b12b839ccdb72278b0af9ee97d5d3869aa8ccad8752cf78c78a2ae97f",
+      "unchanged": true
+    },
+    {
+      "file": "docs/chapters/03-knowledge-graphs.md",
+      "sha256": "8c8ef0441799241f2d9a3fbd777dd9ca1d9d38972a7f0241aef9765a89b2c72b",
+      "unchanged": true
+    },
+    {
+      "file": "docs/chapters/04-ontologies.md",
+      "sha256": "f298e6d3def55ad0b8d51f21e6bb87b6790cc1246d1ce45633901ed282c849d6",
+      "unchanged": true
+    },
+    {
+      "file": "docs/chapters/05-reasoning-and-constraints.md",
+      "sha256": "836bb289f1fb351169b2b37e842716450d1851051ac8cba2c799f73825fd3fd0",
+      "unchanged": true
+    }
+  ]
+}
