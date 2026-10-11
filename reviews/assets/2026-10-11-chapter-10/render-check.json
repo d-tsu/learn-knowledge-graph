@@ -1,0 +1,17 @@
+{
+  "renderer": "Edge headless",
+  "mermaid": "11.12.0",
+  "files": [
+    {
+      "file": "docs/chapters/10-storage-and-query.md",
+      "sha256": "b72240db6452cf7247c6f90fcd4cceefbc7462cbc89891faf24ead061f7bb70d",
+      "diagrams": [
+        {
+          "codeSha256": "5434a702918faae090414393be375a50b5cd8c45a48f9a620977faea55b2eb9e",
+          "svg": "10-storage-and-query-1.svg",
+          "png": "10-storage-and-query-1.png"
+        }
+      ]
+    }
+  ]
+}
