@@ -22,7 +22,7 @@ mainを共有の基準とし、一章ごとにブランチを作って執筆・�
 | 9 表現技術 | 01-foundations、examples/learning-examples | IRI・JSON-LD・SKOS、言語比較、互換性・推論範囲 | 執筆・独立レビュー済み |
 | 10 保存基盤 | 04-tool-landscape | 保存・索引等の分担、配置と選択基準 | 執筆・独立レビュー済み |
 | 11 編集等のツール | 04-tool-landscape | 編集・構築・推論・検証器の連携と不足処理 | 執筆・独立レビュー済み |
-| 12 AI向け活用 | 05-agent-integration、04-tool-landscape | 検索方式比較、記憶と設計知識の違い、API/MCP | 未執筆 |
+| 12 AI向け活用 | 05-agent-integration、04-tool-landscape | 検索方式比較、記憶と設計知識の違い、API/MCP | 執筆・独立レビュー済み |
 | 13 開発モデル | 02-modeling、examples/authorization-testing | 要件・実装・テストの対応、設計判断、仕様と実装の分離 | 未執筆 |
 | 14 設計・コード生成 | 05-agent-integration | 根拠付き文脈、競合・不足、生成物の検証 | 未執筆 |
 | 15 結合・システムテスト | examples/authorization-testing | オラクル、準備条件、計画・制約充足との分担 | 未執筆 |

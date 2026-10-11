@@ -1,0 +1,17 @@
+{
+  "renderer": "Edge headless",
+  "mermaid": "11.12.0",
+  "files": [
+    {
+      "file": "docs/chapters/12-ai-knowledge-use.md",
+      "sha256": "d4ce570b784637133c6d2de9d7ec8973552d25120dcd3dde67308bf0ce14b650",
+      "diagrams": [
+        {
+          "codeSha256": "bdc426987e224b8e2e1840711c37563dd680767189180417488ce2b0cb559a38",
+          "svg": "12-ai-knowledge-use-1.svg",
+          "png": "12-ai-knowledge-use-1.png"
+        }
+      ]
+    }
+  ]
+}
