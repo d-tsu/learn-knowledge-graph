@@ -1,0 +1,17 @@
+{
+  "renderer": "Edge headless",
+  "mermaid": "11.12.0",
+  "files": [
+    {
+      "file": "docs/chapters/13-development-model.md",
+      "sha256": "359cb7449e82cbb3d9bf2610fa846b745c97353fb54a42ae5e617ef763c335ad",
+      "diagrams": [
+        {
+          "codeSha256": "2bcf771ae85e4821c4f944c444895624f788cd33859d21b025d1ac460a677070",
+          "svg": "13-development-model-1.svg",
+          "png": "13-development-model-1.png"
+        }
+      ]
+    }
+  ]
+}
