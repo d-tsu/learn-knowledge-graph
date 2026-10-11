@@ -4,3 +4,5 @@
 
 # Preserve the exact source bytes recorded in the review and PDF manifests.
 docs/chapters/*.md -text
+# Frozen manifests retain CRLF; recognize their line endings during whitespace checks.
+reviews/assets/**/*manifest.json -text whitespace=trailing-space,space-before-tab,cr-at-eol
