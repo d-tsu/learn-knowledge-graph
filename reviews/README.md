@@ -17,6 +17,8 @@
 
 第7章：[執筆と確認](2026-10-11-chapter-07.md)、[独立レビュー](2026-10-11-chapter-07-independent.md)。
 
+第8章：[執筆と確認](2026-10-11-chapter-08.md)、[独立レビュー](2026-10-11-chapter-08-independent.md)。
+
 ## ファイルの役割
 
 案内と章別ブランチの運用については[main合流前の点検](2026-10-07-main-integration.md)に記録した。

@@ -1,0 +1,17 @@
+{
+  "renderer": "Edge headless",
+  "mermaid": "11.12.0",
+  "files": [
+    {
+      "file": "docs/chapters/08-quality-and-lifecycle.md",
+      "sha256": "c00cfad218095116b88624aafaeaa93777106fb0ab4107faa7d0b9fdce92eb78",
+      "diagrams": [
+        {
+          "codeSha256": "e8cd740886a2e6c36dd7a8358b21b30cf2e4211df379514a6c6277c983904691",
+          "svg": "08-quality-and-lifecycle-1.svg",
+          "png": "08-quality-and-lifecycle-1.png"
+        }
+      ]
+    }
+  ]
+}
