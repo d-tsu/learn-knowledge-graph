@@ -1,0 +1,50 @@
+{
+  "initialCharacters": 98650,
+  "finalCharacters": 98248,
+  "initialDiagrams": 28,
+  "finalDiagrams": 29,
+  "changedFiles": [
+    {
+      "file": "docs/chapters/00-introduction.md",
+      "before": 5122,
+      "after": 5122,
+      "delta": 0
+    },
+    {
+      "file": "docs/chapters/02-knowledge-organization.md",
+      "before": 12532,
+      "after": 11962,
+      "delta": -570
+    },
+    {
+      "file": "docs/chapters/03-knowledge-graphs.md",
+      "before": 10173,
+      "after": 10179,
+      "delta": 6
+    },
+    {
+      "file": "docs/chapters/06-model-design.md",
+      "before": 4316,
+      "after": 4255,
+      "delta": -61
+    },
+    {
+      "file": "docs/chapters/08-quality-and-lifecycle.md",
+      "before": 3485,
+      "after": 3695,
+      "delta": 210
+    },
+    {
+      "file": "docs/chapters/13-development-model.md",
+      "before": 3904,
+      "after": 3904,
+      "delta": 0
+    },
+    {
+      "file": "docs/chapters/17-incremental-practice.md",
+      "before": 3280,
+      "after": 3293,
+      "delta": 13
+    }
+  ]
+}

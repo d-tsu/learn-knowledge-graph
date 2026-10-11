@@ -13,29 +13,27 @@
 
 独立報告書は各記録から参照できる。細かな改稿の経緯は[更新履歴](../docs/CHANGELOG.md)にまとめている。初回報告は残し、修正と再確認の結果を追記する。
 
-第6章：[執筆と確認](2026-10-11-chapter-06.md)、[独立レビュー](2026-10-11-chapter-06-independent.md)。
+| 対象 | 執筆・確認 | 独立レビュー |
+|---|---|---|
+| 第6章 | [執筆と確認](2026-10-11-chapter-06.md) | [独立レビュー](2026-10-11-chapter-06-independent.md) |
+| 第7章 | [執筆と確認](2026-10-11-chapter-07.md) | [独立レビュー](2026-10-11-chapter-07-independent.md) |
+| 第8章 | [執筆と確認](2026-10-11-chapter-08.md) | [独立レビュー](2026-10-11-chapter-08-independent.md) |
+| 第9章 | [執筆と確認](2026-10-11-chapter-09.md) | [独立レビュー](2026-10-11-chapter-09-independent.md) |
+| 第10章 | [執筆と確認](2026-10-11-chapter-10.md) | [独立レビュー](2026-10-11-chapter-10-independent.md) |
+| 第11章 | [執筆と確認](2026-10-11-chapter-11.md) | [独立レビュー](2026-10-11-chapter-11-independent.md) |
+| 第12章 | [執筆と確認](2026-10-11-chapter-12.md) | [独立レビュー](2026-10-11-chapter-12-independent.md) |
+| 第13章 | [執筆と確認](2026-10-11-chapter-13.md) | [独立レビュー](2026-10-11-chapter-13-independent.md) |
+| 第14章 | [執筆と確認](2026-10-11-chapter-14.md) | [独立レビュー](2026-10-11-chapter-14-independent.md) |
+| 第15章 | [執筆と確認](2026-10-11-chapter-15.md) | [独立レビュー](2026-10-11-chapter-15-independent.md) |
+| 第16章 | [執筆と確認](2026-10-11-chapter-16.md) | [独立レビュー](2026-10-11-chapter-16-independent.md) |
+| 第17章 | [執筆と確認](2026-10-11-chapter-17.md) | [独立レビュー](2026-10-11-chapter-17-independent.md) |
 
-第7章：[執筆と確認](2026-10-11-chapter-07.md)、[独立レビュー](2026-10-11-chapter-07-independent.md)。
+## 全体の確認と補足
 
-第8章：[執筆と確認](2026-10-11-chapter-08.md)、[独立レビュー](2026-10-11-chapter-08-independent.md)。
-
-第9章：[執筆と確認](2026-10-11-chapter-09.md)、[独立レビュー](2026-10-11-chapter-09-independent.md)。
-
-第10章：[執筆と確認](2026-10-11-chapter-10.md)、[独立レビュー](2026-10-11-chapter-10-independent.md)。
-
-第11章：[執筆と確認](2026-10-11-chapter-11.md)、[独立レビュー](2026-10-11-chapter-11-independent.md)。
-
-第12章：[執筆と確認](2026-10-11-chapter-12.md)、[独立レビュー](2026-10-11-chapter-12-independent.md)。
-
-第13章：[執筆と確認](2026-10-11-chapter-13.md)、[独立レビュー](2026-10-11-chapter-13-independent.md)。
-
-第14章：[執筆と確認](2026-10-11-chapter-14.md)、[独立レビュー](2026-10-11-chapter-14-independent.md)。
-
-第15章：[執筆と確認](2026-10-11-chapter-15.md)、[独立レビュー](2026-10-11-chapter-15-independent.md)。
-
-第16章：[執筆と確認](2026-10-11-chapter-16.md)、[独立レビュー](2026-10-11-chapter-16-independent.md)。
-
-第17章：[執筆と確認](2026-10-11-chapter-17.md)、[独立レビュー](2026-10-11-chapter-17-independent.md)。
+- [全章通読・指摘対応・確認範囲](2026-10-11-book-review.md)、[独立した全章通読](2026-10-11-book-independent.md)。
+- [付録とひな形の独立レビュー](2026-10-11-appendices-independent.md)。
+- [既存章の図の検討](2026-10-11-existing-diagram-proposals.md)、[理由と採否](../docs/DIAGRAM_PROPOSALS.md)。
+- [全章・付録のmain合流前点検](2026-10-11-book-publication-check.md)。
 
 ## ファイルの役割
 

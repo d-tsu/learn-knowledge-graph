@@ -1,0 +1,59 @@
+{
+  "renderer": "Edge headless",
+  "mermaid": "11.12.0",
+  "files": [
+    {
+      "file": "docs/chapters/03-knowledge-graphs.md",
+      "sha256": "4b3d32207b877b4be78d3c2017230f8171bc2a13e45bfb3652b1ff7555239cc2",
+      "diagrams": [
+        {
+          "codeSha256": "f11fd6410fcba81aaecb0154b53d36e5d35f253fe2198d7b1bb5851436867b34",
+          "svg": "03-knowledge-graphs-1.svg",
+          "png": "03-knowledge-graphs-1.png"
+        },
+        {
+          "codeSha256": "e5bc7eba779c9635b7f5f120b87256f69a546c8aad1ac463ed75e7f877cef4c4",
+          "svg": "03-knowledge-graphs-2.svg",
+          "png": "03-knowledge-graphs-2.png"
+        },
+        {
+          "codeSha256": "e9342dda532ca929441e2450dfa272fe98196de103a12451cbf9ef3a7513934e",
+          "svg": "03-knowledge-graphs-3.svg",
+          "png": "03-knowledge-graphs-3.png"
+        },
+        {
+          "codeSha256": "7d0228d5e5809ee9019a282809e72f0531135e51da4c02112b37243d551af024",
+          "svg": "03-knowledge-graphs-4.svg",
+          "png": "03-knowledge-graphs-4.png"
+        },
+        {
+          "codeSha256": "4f125a9f6372e70d58267d473c2236e6ebf9b22fcbefedac58bd86a8d6f038ce",
+          "svg": "03-knowledge-graphs-5.svg",
+          "png": "03-knowledge-graphs-5.png"
+        }
+      ]
+    },
+    {
+      "file": "docs/chapters/06-model-design.md",
+      "sha256": "da64b0da25e3e6a82eb8b69c9c3fae632963ca3f48b9beb5ed95a65b32552afd",
+      "diagrams": [
+        {
+          "codeSha256": "529bd602d3a11c86a8bbec8d8a192fdb72a634a78bf9246609bcfd85e7ba8b1a",
+          "svg": "06-model-design-1.svg",
+          "png": "06-model-design-1.png"
+        }
+      ]
+    },
+    {
+      "file": "docs/chapters/08-quality-and-lifecycle.md",
+      "sha256": "a4a15a7f88ef117812cba48c1b15aeadede1ac3403da87b1042c54ad3bdaa2ce",
+      "diagrams": [
+        {
+          "codeSha256": "6bc7e102eaf9d495aa27235cc36bb4cdbc7773e55e7bab68f7d164cecd079556",
+          "svg": "08-quality-and-lifecycle-1.svg",
+          "png": "08-quality-and-lifecycle-1.png"
+        }
+      ]
+    }
+  ]
+}
