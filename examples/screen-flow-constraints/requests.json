@@ -1,0 +1,26 @@
+[
+  {
+    "id": "P-01",
+    "department": "D-01",
+    "status": "pending",
+    "amount": 10
+  },
+  {
+    "id": "P-02",
+    "department": "D-01",
+    "status": "pending",
+    "amount": 20
+  },
+  {
+    "id": "P-03",
+    "department": "D-02",
+    "status": "pending",
+    "amount": 500
+  },
+  {
+    "id": "P-04",
+    "department": "D-01",
+    "status": "processed",
+    "amount": 900
+  }
+]

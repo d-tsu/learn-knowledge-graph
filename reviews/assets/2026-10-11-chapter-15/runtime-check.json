@@ -1,0 +1,38 @@
+{
+  "status": "passed",
+  "selected_records": [
+    "P-01",
+    "P-02"
+  ],
+  "available_amount": 70,
+  "boundary_cases": [
+    {
+      "category": "normal",
+      "amount": 70,
+      "destination": "C",
+      "business_error": false
+    },
+    {
+      "category": "normal",
+      "amount": 71,
+      "destination": "C",
+      "business_error": true
+    },
+    {
+      "category": "special",
+      "amount": 50,
+      "destination": "D",
+      "business_error": false
+    },
+    {
+      "category": "special",
+      "amount": 51,
+      "destination": "D",
+      "business_error": true
+    }
+  ],
+  "C_error_candidates": 80,
+  "special_to_C_candidates": 0,
+  "changed_available_amount": 50,
+  "scope": "fictional rule calculation only"
+}
