@@ -1,0 +1,5 @@
+@prefix ex: <https://example.org/dev/> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+ex:TestSourceShape a sh:NodeShape ;
+  sh:targetClass ex:Test ;
+  sh:property [ sh:path ex:source ; sh:minCount 1 ; sh:nodeKind sh:IRI ] .

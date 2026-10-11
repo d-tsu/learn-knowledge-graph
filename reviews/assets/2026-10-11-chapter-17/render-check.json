@@ -1,0 +1,17 @@
+{
+  "renderer": "Edge headless",
+  "mermaid": "11.12.0",
+  "files": [
+    {
+      "file": "docs/chapters/17-incremental-practice.md",
+      "sha256": "a448b57d09cd9aff86e6abfcd4580b564c3656be1ec4af67c75b995e1be9b96f",
+      "diagrams": [
+        {
+          "codeSha256": "63ee255e3e1e641ace5069983006e7eff462abb9e97a364f57aded27f3ff7443",
+          "svg": "17-incremental-practice-1.svg",
+          "png": "17-incremental-practice-1.png"
+        }
+      ]
+    }
+  ]
+}

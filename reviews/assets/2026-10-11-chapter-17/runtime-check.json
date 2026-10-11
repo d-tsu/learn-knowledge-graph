@@ -1,0 +1,29 @@
+{
+  "status": "passed",
+  "v1_query": [
+    "https://example.org/dev/A-01",
+    "https://example.org/dev/T-01",
+    "https://example.org/practice/trace-v1#R-01"
+  ],
+  "v2_query": [
+    "https://example.org/dev/A-01",
+    "https://example.org/dev/T-03",
+    "https://example.org/practice/trace-v2#R-01"
+  ],
+  "missing_source_conforms": false,
+  "malformed_sources_rejected": 2,
+  "old_test_removed": true,
+  "reordered_source_context_matches": true,
+  "context": {
+    "release": "v2",
+    "requirement": "R-01",
+    "api": "A-01",
+    "test": "T-03",
+    "source": {
+      "file": "sources/trace-v2.md",
+      "line": 5,
+      "text": "| R-01 | 通常申請を受け付ける | A-01 | T-03 |"
+    },
+    "execution_status": "not executed"
+  }
+}
