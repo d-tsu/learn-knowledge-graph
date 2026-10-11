@@ -1,0 +1,6 @@
+PREFIX ex: <https://example.org/dev/>
+SELECT ?api ?test ?source WHERE {
+  ex:R-01 ex:implementedBy ?api .
+  ?test ex:tests ?api ; ex:source ?source .
+}
+ORDER BY ?test
