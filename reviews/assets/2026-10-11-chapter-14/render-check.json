@@ -1,0 +1,17 @@
+{
+  "renderer": "Edge headless",
+  "mermaid": "11.12.0",
+  "files": [
+    {
+      "file": "docs/chapters/14-design-and-code-generation.md",
+      "sha256": "9fd3230e2254eb28e711a5fb788023391c04b28713e2229957ad56247f05bcac",
+      "diagrams": [
+        {
+          "codeSha256": "cfd6428dc3ff59d243a318e46d711f0ad5a90dfb77e0e54704bf34ba560deb9a",
+          "svg": "14-design-and-code-generation-1.svg",
+          "png": "14-design-and-code-generation-1.png"
+        }
+      ]
+    }
+  ]
+}
