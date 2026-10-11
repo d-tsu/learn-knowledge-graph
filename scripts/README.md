@@ -19,3 +19,5 @@ node scripts/check-chapter-markdown.cjs
 | `check-mobile-pdf.py` | 生成したPDFの検査 |
 
 ユーザーの指定により、PDFの生成・更新は停止している。これらは過去の生成手順を残すためのスクリプトであり、通常の章執筆では実行しない。保存済み成果物の確認範囲は[過去の生成記録](../output/pdf/README.md)を参照する。
+
+第6章以降の図は render-chapter-diagrams.cjs で選択した本文だけを描画できる。引数はローカルのMermaid 11.12.0、証跡の保存先、本文ファイルの順。PNG・SVGとハッシュを保存し、PDFは生成しない。

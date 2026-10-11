@@ -1,6 +1,6 @@
 # 再編・執筆計画
 
-更新日：2026-10-07。基準は[OUTLINE.md](../OUTLINE.md)。旧草稿は [drafts/](../drafts/README.md) に分離し、新本文は `docs/chapters/` に章番号と内容を示す名前で追加する。付録は必要になった段階で `docs/appendices/` に整理する。未執筆の章の空ファイルは作らない。
+更新日：2026-10-11。基準は[OUTLINE.md](../OUTLINE.md)。旧草稿は [drafts/](../drafts/README.md) に分離し、新本文は `docs/chapters/` に章番号と内容を示す名前で追加する。付録は必要になった段階で `docs/appendices/` に整理する。未執筆の章の空ファイルは作らない。
 
 mainを共有の基準とし、一章ごとにブランチを作って執筆・レビューを行う。指摘対応と必要な確認を終えたらmainへマージする。[執筆・合流手順](../CONTRIBUTING.md)に従う。現在の入口はREADME、詳しい改稿の履歴は[更新履歴](CHANGELOG.md)、レビューの所在は[レビュー一覧](../reviews/README.md)で確認する。
 
@@ -16,7 +16,7 @@ mainを共有の基準とし、一章ごとにブランチを作って執筆・�
 | 3 ナレッジグラフ | 01-foundations、examples/learning-examples | 経路・同一性、同じ例でPG/RDF比較、RDB等との比較 | 執筆・独立レビュー済み |
 | 4 オントロジー | 01-foundations、examples/learning-examples | クラス・個体、分類と構成、公理と意味の段階的説明 | 執筆・独立レビュー済み |
 | 5 推論・制約 | 01-foundations、examples/learning-examples | 未知・否定・矛盾、時間・文脈、探索と計画の比較 | 執筆・独立レビュー済み |
-| 6 モデル設計 | 02-modeling | 一般的な問い、外部参照境界、語彙再利用、PG/RDF写像、合意形成 | 未執筆 |
+| 6 モデル設計 | 02-modeling | 一般的な問い、外部参照境界、語彙再利用、PG/RDF写像、合意形成 | 執筆・独立レビュー済み |
 | 7 知識構築 | 03-ingestion | パーサ・静的解析・LLMの分担、照合判断、表・否定の例 | 未執筆 |
 | 8 品質・維持 | 02-modeling、03-ingestion | 来歴とレビュー、削除と再計算、責任・アクセス制御 | 未執筆 |
 | 9 表現技術 | 01-foundations、examples/learning-examples | IRI・JSON-LD・SKOS、言語比較、互換性・推論範囲 | 未執筆 |

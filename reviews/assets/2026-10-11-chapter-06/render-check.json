@@ -1,0 +1,17 @@
+{
+  "renderer": "Edge headless",
+  "mermaid": "11.12.0",
+  "files": [
+    {
+      "file": "docs/chapters/06-model-design.md",
+      "sha256": "ae87d6143f751f1aa499d71a855b8c253bb84ae030ff0e5606548c4951b43d35",
+      "diagrams": [
+        {
+          "codeSha256": "5b6d0e649a4d9a37a2e25e1d1aec9e9d1390cfc366150ecb79cee643cd2483a7",
+          "svg": "06-model-design-1.svg",
+          "png": "06-model-design-1.png"
+        }
+      ]
+    }
+  ]
+}
