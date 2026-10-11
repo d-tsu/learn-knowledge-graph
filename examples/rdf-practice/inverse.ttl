@@ -1,0 +1,4 @@
+@prefix ex: <https://example.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+ex:borrower owl:inverseOf ex:hasLoan .

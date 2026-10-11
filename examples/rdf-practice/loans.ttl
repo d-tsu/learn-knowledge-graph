@@ -1,0 +1,6 @@
+@prefix ex: <https://example.org/library/> .
+
+ex:L08 a ex:Loan ;
+    ex:borrower ex:U03 ;
+    ex:book ex:A017 .
+ex:A017 ex:title "知識の整理入門"@ja .
