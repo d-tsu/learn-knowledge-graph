@@ -1,0 +1,17 @@
+{
+  "renderer": "Edge headless",
+  "mermaid": "11.12.0",
+  "files": [
+    {
+      "file": "docs/chapters/15-integration-testing.md",
+      "sha256": "8dabd9528ddafe2840cce5dc7fd8f6a38f266009c9daaeca30e4e6e5957be429",
+      "diagrams": [
+        {
+          "codeSha256": "8204f23125f83517f2caea182d70cf4d44b7e95728f687bf51e9fb8959a18149",
+          "svg": "15-integration-testing-1.svg",
+          "png": "15-integration-testing-1.png"
+        }
+      ]
+    }
+  ]
+}
