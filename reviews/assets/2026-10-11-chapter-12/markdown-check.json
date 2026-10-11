@@ -1,0 +1,146 @@
+[
+  {
+    "file": "docs/chapters/00-introduction.md",
+    "sha256": "4c342d14228dc1882607b3b8cfc7cccc1694d49a88c5f4c22d25bbd95dd7652a",
+    "localLinks": 6,
+    "emphasis": 4,
+    "diagrams": 3,
+    "issues": []
+  },
+  {
+    "file": "docs/chapters/01-knowledge-representation.md",
+    "sha256": "2ea9253c22a11050c2ed8653330be884446db5137831c4f15cd4f94c69c76a14",
+    "localLinks": 3,
+    "emphasis": 4,
+    "diagrams": 1,
+    "issues": []
+  },
+  {
+    "file": "docs/chapters/02-knowledge-organization.md",
+    "sha256": "4644735b12b839ccdb72278b0af9ee97d5d3869aa8ccad8752cf78c78a2ae97f",
+    "localLinks": 4,
+    "emphasis": 22,
+    "diagrams": 4,
+    "issues": []
+  },
+  {
+    "file": "docs/chapters/03-knowledge-graphs.md",
+    "sha256": "8c8ef0441799241f2d9a3fbd777dd9ca1d9d38972a7f0241aef9765a89b2c72b",
+    "localLinks": 3,
+    "emphasis": 14,
+    "diagrams": 4,
+    "issues": []
+  },
+  {
+    "file": "docs/chapters/04-ontologies.md",
+    "sha256": "f298e6d3def55ad0b8d51f21e6bb87b6790cc1246d1ce45633901ed282c849d6",
+    "localLinks": 3,
+    "emphasis": 9,
+    "diagrams": 4,
+    "issues": []
+  },
+  {
+    "file": "docs/chapters/05-reasoning-and-constraints.md",
+    "sha256": "e175164539a72354da7180526f39d6768f2c9a21a6244ecc2d3370ff8a2c5775",
+    "localLinks": 3,
+    "emphasis": 8,
+    "diagrams": 3,
+    "issues": []
+  },
+  {
+    "file": "docs/chapters/06-model-design.md",
+    "sha256": "be9fa553506d6e1bf50cd6e6691a2587d17d74a0bc59c2d1b01c202c6142f6c4",
+    "localLinks": 3,
+    "emphasis": 3,
+    "diagrams": 1,
+    "issues": []
+  },
+  {
+    "file": "docs/chapters/07-knowledge-construction.md",
+    "sha256": "49a4f7e1013b9d07fffacb0f255be13babefc2eddd27d96350bc24b0cabf2397",
+    "localLinks": 3,
+    "emphasis": 5,
+    "diagrams": 1,
+    "issues": []
+  },
+  {
+    "file": "docs/chapters/08-quality-and-lifecycle.md",
+    "sha256": "54d1478eca7702801d7cd4177a1e527a87b64ba78c3bb789cd997835cdb2c50a",
+    "localLinks": 3,
+    "emphasis": 1,
+    "diagrams": 1,
+    "issues": []
+  },
+  {
+    "file": "docs/chapters/09-models-and-languages.md",
+    "sha256": "82014d29fb5dcb6934dfab0fcaa29367e0091aec24c1458714c17bfdb908115b",
+    "localLinks": 4,
+    "emphasis": 10,
+    "diagrams": 0,
+    "issues": []
+  },
+  {
+    "file": "docs/chapters/10-storage-and-query.md",
+    "sha256": "7b0fd467d33800dff9ff0db68d8de4b3b50776a2c139d473177fdd31247d11b6",
+    "localLinks": 3,
+    "emphasis": 6,
+    "diagrams": 1,
+    "issues": []
+  },
+  {
+    "file": "docs/chapters/11-editing-and-validation-tools.md",
+    "sha256": "818bd13bbf89c7c918104477d981818fb3247b8b55b686c06e0088606010504f",
+    "localLinks": 2,
+    "emphasis": 7,
+    "diagrams": 0,
+    "issues": []
+  },
+  {
+    "file": "docs/chapters/12-ai-knowledge-use.md",
+    "sha256": "49cfe10d1ca6dac3290e1fd2e1e78f15faed0ac7746f4ae605b2468462f1ba6e",
+    "localLinks": 2,
+    "emphasis": 9,
+    "diagrams": 1,
+    "issues": []
+  },
+  {
+    "file": "docs/chapters/13-development-model.md",
+    "sha256": "dd3e8b0250126420d5c15e538390346ab0007893491a607ffeb6e7430cc25238",
+    "localLinks": 2,
+    "emphasis": 2,
+    "diagrams": 1,
+    "issues": []
+  },
+  {
+    "file": "docs/chapters/14-design-and-code-generation.md",
+    "sha256": "9fd3230e2254eb28e711a5fb788023391c04b28713e2229957ad56247f05bcac",
+    "localLinks": 2,
+    "emphasis": 1,
+    "diagrams": 1,
+    "issues": []
+  },
+  {
+    "file": "docs/chapters/15-integration-testing.md",
+    "sha256": "8dabd9528ddafe2840cce5dc7fd8f6a38f266009c9daaeca30e4e6e5957be429",
+    "localLinks": 4,
+    "emphasis": 2,
+    "diagrams": 1,
+    "issues": []
+  },
+  {
+    "file": "docs/chapters/16-evaluation.md",
+    "sha256": "4148f145657bd495c1fda32da0052fc6903619b68d86466b7e19e488c0690228",
+    "localLinks": 2,
+    "emphasis": 4,
+    "diagrams": 0,
+    "issues": []
+  },
+  {
+    "file": "docs/chapters/17-incremental-practice.md",
+    "sha256": "a448b57d09cd9aff86e6abfcd4580b564c3656be1ec4af67c75b995e1be9b96f",
+    "localLinks": 3,
+    "emphasis": 0,
+    "diagrams": 1,
+    "issues": []
+  }
+]
