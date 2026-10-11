@@ -1,0 +1,17 @@
+{
+  "renderer": "Edge headless",
+  "mermaid": "11.12.0",
+  "files": [
+    {
+      "file": "docs/chapters/07-knowledge-construction.md",
+      "sha256": "44cb86c5cd1d02060f1886549efbff804c15a0f140c7b7649ade67e581b94c8c",
+      "diagrams": [
+        {
+          "codeSha256": "cd0370f611bf53fa3ab843c35646ea06afe7d9b9a43eb320e4f9b562a49f8b6c",
+          "svg": "07-knowledge-construction-1.svg",
+          "png": "07-knowledge-construction-1.png"
+        }
+      ]
+    }
+  ]
+}
