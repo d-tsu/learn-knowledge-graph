@@ -1,0 +1,9 @@
+@prefix ex: <https://example.org/library/> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+
+ex:LoanShape a sh:NodeShape ;
+    sh:targetClass ex:Loan ;
+    sh:property [
+        sh:path ex:borrower ;
+        sh:minCount 1 ; sh:maxCount 1 ; sh:nodeKind sh:IRI
+    ] .

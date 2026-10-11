@@ -1,0 +1,19 @@
+{
+  "versions": {
+    "rdflib": "7.1.4",
+    "pyshacl": "0.30.1",
+    "owlrl": "7.1.4"
+  },
+  "equivalent_triples": 4,
+  "query_rows": [
+    [
+      "https://example.org/library/A017",
+      "知識の整理入門"
+    ]
+  ],
+  "complete_data_conforms": true,
+  "missing_borrower_conforms": false,
+  "missing_title_query_rows": 0,
+  "inverse_relation_derived": true,
+  "status": "passed"
+}

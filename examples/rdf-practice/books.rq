@@ -1,0 +1,6 @@
+PREFIX ex: <https://example.org/library/>
+SELECT ?book ?title WHERE {
+  ?loan a ex:Loan ; ex:borrower ex:U03 ; ex:book ?book .
+  ?book ex:title ?title .
+}
+ORDER BY ?book

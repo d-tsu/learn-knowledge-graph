@@ -1,0 +1,10 @@
+{
+  "@context": {"ex": "https://example.org/library/"},
+  "@graph": [
+    {"@id": "ex:L08", "@type": "ex:Loan",
+     "ex:borrower": {"@id": "ex:U03"},
+     "ex:book": {"@id": "ex:A017"}},
+    {"@id": "ex:A017",
+     "ex:title": {"@value": "知識の整理入門", "@language": "ja"}}
+  ]
+}
