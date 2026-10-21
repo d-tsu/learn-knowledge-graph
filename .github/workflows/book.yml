@@ -1,0 +1,55 @@
+name: Build and deploy book
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: book-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+      - name: Install pinned book tools
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          mkdir -p tmp/mdbook-tools
+          gh release download v0.5.4 --repo rust-lang/mdBook --pattern 'mdbook-v0.5.4-x86_64-unknown-linux-gnu.tar.gz' --dir tmp/mdbook-tools
+          gh release download v0.17.1 --repo badboy/mdbook-mermaid --pattern 'mdbook-mermaid-v0.17.1-x86_64-unknown-linux-gnu.tar.gz' --dir tmp/mdbook-tools
+          tar -xzf tmp/mdbook-tools/mdbook-v0.5.4-x86_64-unknown-linux-gnu.tar.gz -C tmp/mdbook-tools
+          tar -xzf tmp/mdbook-tools/mdbook-mermaid-v0.17.1-x86_64-unknown-linux-gnu.tar.gz -C tmp/mdbook-tools
+      - name: Build book
+        run: python scripts/build-book.py
+      - name: Check generated links
+        run: python scripts/check-book.py
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: tmp/book
+
+  deploy:
+    if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/configure-pages@v5
+      - name: Deploy
+        id: deployment
+        uses: actions/deploy-pages@v4

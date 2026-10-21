@@ -1,0 +1,30 @@
+[book]
+title = "ナレッジグラフ・オントロジー学習ノート"
+description = "知識の表現と意味の基礎から、AIを使う開発への応用まで"
+language = "ja"
+src = "tmp/book-src"
+
+[build]
+build-dir = "tmp/book"
+create-missing = false
+
+[preprocessor.mermaid]
+command = "mdbook-mermaid"
+
+[output.html]
+default-theme = "light"
+preferred-dark-theme = "navy"
+no-section-label = true
+site-url = "/learn-knowledge-graph/"
+git-repository-url = "https://github.com/d-tsu/learn-knowledge-graph"
+additional-css = ["site/reader.css"]
+additional-js = ["tmp/mermaid-assets/mermaid.min.js", "site/mermaid-init.js", "site/reader-search.js"]
+
+[output.html.print]
+enable = false
+
+[output.html.search]
+enable = true
+copy-js = false
+limit-results = 30
+use-boolean-and = true
