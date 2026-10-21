@@ -1,6 +1,6 @@
 # 作業引き継ぎ
 
-更新日：2026-10-20。現在の入口は[README](README.md)、過去の執筆・改稿は[更新履歴](docs/CHANGELOG.md)、確認結果は[レビュー一覧](reviews/README.md)を参照する。
+更新日：2026-10-21。現在の入口は[README](README.md)、過去の執筆・改稿は[更新履歴](docs/CHANGELOG.md)、確認結果は[レビュー一覧](reviews/README.md)を参照する。
 
 ## 再開時に読むもの
 
@@ -11,7 +11,7 @@
 
 ## 現在の状態
 
-mdBookによる[Web版](https://d-tsu.github.io/learn-knowledge-graph/)の構成を追加した。目次・日本語検索・Mermaid図・スマホ幅の表示をローカルで確認した。公開と確認の結果は[Web版の構築記録](reviews/2026-10-20-web-publication.md)、生成・保守の手順は[Web版の管理](site/README.md)を参照。本文の正本は既存のMarkdownのまま。
+mdBookによる[Web版](https://d-tsu.github.io/learn-knowledge-graph/)をGitHub Pagesへ公開した。GitHub Actionsの生成・公開が成功し、公開URLでも全31ページ・29図・日本語検索・スマホ相当幅の表示を確認した。詳細は[Web版の構築記録](reviews/2026-10-20-web-publication.md)、生成・保守の手順は[Web版の管理](site/README.md)を参照。本文の正本は既存のMarkdownのまま。
 
 本文は `docs/chapters/` の序章〜第17章まで。各章の確認範囲は[レビュー一覧](reviews/README.md)で確認できる。第17章の今回の記録は[執筆とレビュー](reviews/2026-10-11-chapter-17.md)。
 

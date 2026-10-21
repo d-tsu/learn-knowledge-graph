@@ -1,0 +1,159 @@
+{
+  "base": "https://d-tsu.github.io/learn-knowledge-graph/",
+  "browser": "Microsoft Edge via Playwright",
+  "viewport": {
+    "desktop": [
+      1365,
+      950
+    ],
+    "mobile": [
+      390,
+      844
+    ]
+  },
+  "pages": [
+    {
+      "path": "index.html",
+      "diagrams": 0
+    },
+    {
+      "path": "docs/chapters/00-introduction.html",
+      "diagrams": 3
+    },
+    {
+      "path": "docs/chapters/01-knowledge-representation.html",
+      "diagrams": 1
+    },
+    {
+      "path": "docs/chapters/02-knowledge-organization.html",
+      "diagrams": 4
+    },
+    {
+      "path": "docs/chapters/03-knowledge-graphs.html",
+      "diagrams": 5
+    },
+    {
+      "path": "docs/chapters/04-ontologies.html",
+      "diagrams": 4
+    },
+    {
+      "path": "docs/chapters/05-reasoning-and-constraints.html",
+      "diagrams": 3
+    },
+    {
+      "path": "docs/chapters/06-model-design.html",
+      "diagrams": 1
+    },
+    {
+      "path": "docs/chapters/07-knowledge-construction.html",
+      "diagrams": 1
+    },
+    {
+      "path": "docs/chapters/08-quality-and-lifecycle.html",
+      "diagrams": 1
+    },
+    {
+      "path": "docs/chapters/09-models-and-languages.html",
+      "diagrams": 0
+    },
+    {
+      "path": "docs/chapters/10-storage-and-query.html",
+      "diagrams": 1
+    },
+    {
+      "path": "docs/chapters/11-editing-and-validation-tools.html",
+      "diagrams": 0
+    },
+    {
+      "path": "docs/chapters/12-ai-knowledge-use.html",
+      "diagrams": 1
+    },
+    {
+      "path": "docs/chapters/13-development-model.html",
+      "diagrams": 1
+    },
+    {
+      "path": "docs/chapters/14-design-and-code-generation.html",
+      "diagrams": 1
+    },
+    {
+      "path": "docs/chapters/15-integration-testing.html",
+      "diagrams": 1
+    },
+    {
+      "path": "docs/chapters/16-evaluation.html",
+      "diagrams": 0
+    },
+    {
+      "path": "docs/chapters/17-incremental-practice.html",
+      "diagrams": 1
+    },
+    {
+      "path": "docs/appendices/index.html",
+      "diagrams": 0
+    },
+    {
+      "path": "docs/appendices/glossary.html",
+      "diagrams": 0
+    },
+    {
+      "path": "docs/appendices/sources.html",
+      "diagrams": 0
+    },
+    {
+      "path": "docs/appendices/tool-comparison.html",
+      "diagrams": 0
+    },
+    {
+      "path": "docs/appendices/practice-and-formalization.html",
+      "diagrams": 0
+    },
+    {
+      "path": "docs/appendices/templates-and-exercises.html",
+      "diagrams": 0
+    },
+    {
+      "path": "examples/rdf-practice/index.html",
+      "diagrams": 0
+    },
+    {
+      "path": "examples/screen-flow-constraints/index.html",
+      "diagrams": 0
+    },
+    {
+      "path": "examples/development-practice/index.html",
+      "diagrams": 0
+    },
+    {
+      "path": "templates/knowledge-record.html",
+      "diagrams": 0
+    },
+    {
+      "path": "templates/tool-review.html",
+      "diagrams": 0
+    },
+    {
+      "path": "templates/evaluation-record.html",
+      "diagrams": 0
+    }
+  ],
+  "search": [
+    {
+      "query": "オントロジー",
+      "results": 30
+    },
+    {
+      "query": "借り手",
+      "results": 2
+    },
+    {
+      "query": "トレーサビリティ",
+      "results": 2
+    },
+    {
+      "query": "SHACL",
+      "results": 21
+    }
+  ],
+  "failures": []
+}
