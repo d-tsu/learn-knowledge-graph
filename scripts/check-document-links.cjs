@@ -8,7 +8,7 @@ const {pathToFileURL} = require('url');
   const root = path.resolve(__dirname, '..');
   const files = ['README.md','HANDOFF.md','OUTLINE.md','CONTRIBUTING.md','REVIEW_POLICY.md',
     'docs/EDITORIAL_PLAN.md','docs/CHANGELOG.md','docs/DIAGRAM_PROPOSALS.md',
-    'reviews/README.md','scripts/README.md'];
+    'reviews/README.md','scripts/README.md','site/README.md'];
   for (const dir of ['docs/chapters','docs/appendices','templates']) {
     for (const name of fs.readdirSync(path.join(root,dir)))
       if (name.endsWith('.md')) files.push(`${dir}/${name}`);

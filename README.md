@@ -4,7 +4,9 @@
 
 ## 読み始める
 
-[序章](docs/chapters/00-introduction.md)から章番号の順に読み進めてください。各章には到達点、具体例、復習、演習と解答例があります。図の表示にはMermaid対応のMarkdownビューアが必要です。
+[Web版](https://d-tsu.github.io/learn-knowledge-graph/)では、目次・本文検索・章送りを使って読めます。日本語の部分一致検索と、明暗のテーマ切替に対応しています。
+
+[序章](docs/chapters/00-introduction.md)から章番号の順に読み進めてください。各章には到達点、具体例、復習、演習と解答例があります。Markdownを直接読む場合は、図の表示にMermaid対応のビューアが必要です。
 
 構成は[合意済み目次](OUTLINE.md)に従います。序章・5部17章の本文と[付録](docs/appendices/README.md)を用意しました。
 

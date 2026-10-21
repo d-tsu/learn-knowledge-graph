@@ -1,5 +1,22 @@
 # 文書の検査・生成スクリプト
 
+## Web版の生成と検査
+
+`build-book.py` は `site/SUMMARY.md` に列挙したMarkdownからmdBookのサイトを生成する。Python 3.11以上、mdBook 0.5.4、mdbook-mermaid 0.17.1が必要である。正本の本文は変更しない。
+
+```sh
+python scripts/build-book.py
+python scripts/check-book.py
+```
+
+`check-book.py` は生成したHTMLの内部リンク・見出し・画像・スクリプトと、検索結果のリンクを検査する。`check-book-browser.cjs` はPlaywrightとEdgeで全読書ページの図、検索、テーマ切替、スマホ幅のメニューを確認し、`tmp/book-browser/` に結果とスクリーンショットを保存する。
+
+```sh
+node scripts/check-book-browser.cjs
+```
+
+導入・プレビュー・自動公開の手順は[Web版の管理](../site/README.md)を参照する。
+
 ## 本文のMarkdown検査
 
 `check-chapter-markdown.cjs` は `docs/chapters/` のローカルリンク、コードフェンス、強調の解釈を検査し、各ファイルのSHA-256も出力する。Node.jsと `marked` パッケージが必要である。利用する環境で `marked` を解決できる状態にして実行する。
